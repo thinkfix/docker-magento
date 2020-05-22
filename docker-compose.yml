@@ -1,0 +1,63 @@
+version: "3.3"
+
+services:
+  php-fpm:
+    container_name: php-fpm_s
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    volumes:
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./www:/var/www
+      - ./php/git/.ssh:/root/.ssh
+    ports:
+      - "9000:9000" #php-fpm default port
+      - "9003:9003" #supervisor panel
+    restart: always
+    extra_hosts:
+      - "mygento.loc:172.16.238.240"
+    networks:
+      app_network:
+
+  mysql:
+    container_name: mysql_s
+    ports:
+      - "3306:3306"
+    build:
+      dockerfile: Dockerfile
+      context: ./mysql
+    volumes:
+      - ./mysql/config:/etc/mysql
+      - ./mysql/data:/var/lib/mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_ROOT_PASSWORD: ~
+    restart: always
+    networks:
+      - app_network
+
+  nginx:
+    container_name: nginx_s
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    volumes:
+      - ./www:/var/www
+      - ./nginx/ssl:/etc/ssl
+      - ./nginx/log:/var/log/nginx
+      - ./nginx/sites-available:/etc/nginx/conf.d
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always
+    networks:
+      app_network:
+        ipv4_address: 172.16.238.240
+
+networks:
+  app_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.16.238.0/24

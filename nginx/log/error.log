@@ -1,0 +1,54 @@
+2020/05/19 00:37:45 [error] 7#7: *2 directory index of "/var/www/mygento.loc/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc:8080"
+2020/05/19 06:54:40 [error] 7#7: *1 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc:8080"
+2020/05/19 06:54:40 [error] 7#7: *1 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc:8080"
+2020/05/19 07:12:36 [error] 7#7: *2 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
+2020/05/19 07:12:36 [error] 7#7: *1 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
+2020/05/19 07:12:46 [error] 7#7: *1 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
+2020/05/19 07:12:47 [error] 7#7: *1 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
+2020/05/22 12:59:15 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:16 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:16 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:17 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:18 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:20 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:24 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:30 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 12:59:44 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:00:10 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:12 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:12 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:13 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:14 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:15 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:17 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:20 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:27 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:01:40 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:02:06 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:02:58 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:03:58 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:04:59 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:05:59 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:27 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:28 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:28 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:29 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:30 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:32 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:36 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:42 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:06:55 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:19 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:19 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:20 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:20 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:22 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:24 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:27 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:34 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:07:47 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:08:13 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:09:05 [emerg] 1#1: host not found in upstream "php-fpm_s_m" in /etc/nginx/conf.d/magento.loc.conf:19
+2020/05/22 13:11:52 [error] 6#6: *3 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "localhost"
+2020/05/22 15:24:28 [error] 6#6: *2 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
+2020/05/22 15:24:35 [error] 6#6: *3 directory index of "/var/www/mygento.loc/html/" is forbidden, client: 172.16.238.1, server: mygento.loc, request: "GET / HTTP/1.1", host: "mygento.loc"
