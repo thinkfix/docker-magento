@@ -46,8 +46,8 @@ services:
       context: ./phpmyadmin
     ports:
       - "8081:80"
-    links:
-      - mysql
+    external_links:
+      - mysql:db
     networks:
       - app_network
 
